@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+{
+  "builds": [{ "src": "app.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "app.py" }]
+}
+=======
+{
+  "builds": [{ "src": "app.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "app.py" }]
+}
+>>>>>>> 8ea01cf961e49ccdfca2b46a229eef3f1279b73a
