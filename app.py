@@ -3,8 +3,10 @@ import time
 import pyotp
 from flask import Flask, render_template, request, jsonify
 from username_secretkey import user_secrets 
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 app.secret_key = os.urandom(24)
 
 @app.route('/')
